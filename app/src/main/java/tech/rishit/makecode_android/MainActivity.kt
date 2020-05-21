@@ -1,7 +1,9 @@
 package tech.rishit.makecode_android
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.graphics.Color
+import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.webkit.WebView
@@ -52,5 +54,11 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        github.setOnClickListener{
+            val github_project = getString(R.string.githubproject_url)
+            val i = Intent(Intent.ACTION_VIEW)
+            i.data = Uri.parse(github_project)
+            startActivity(i)
+        }
     }
 }
