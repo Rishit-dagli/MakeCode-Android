@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
         myWebView.loadUrl(projectUrl)
 
         dayNightSwitch.setDuration(450)
+
         dayNightSwitch.setListener { is_night ->
             if (is_night) {
                 Toast.makeText(this@MainActivity, "Night Mode!", Toast.LENGTH_SHORT).show()
@@ -50,5 +51,6 @@ class MainActivity : AppCompatActivity() {
                 this.background_view.alpha = 0f
             }
         }
+
     }
 }
