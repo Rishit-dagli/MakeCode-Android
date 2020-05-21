@@ -3,6 +3,7 @@ package tech.rishit.makecode_android
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
+import android.webkit.WebView
 import android.widget.AutoCompleteTextView
 import android.widget.TextView
 import android.widget.Toast
@@ -15,6 +16,8 @@ class MainActivity : AppCompatActivity() {
     lateinit var dayNightSwitch: DayNightSwitch
     lateinit var background_view: View
     lateinit var textView: TextView
+    lateinit var myWebView: WebView
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,6 +25,8 @@ class MainActivity : AppCompatActivity() {
 
         dayNightSwitch = findViewById<View>(R.id.dayNight) as DayNightSwitch
         background_view = findViewById(R.id.background_view)
+        myWebView = findViewById(R.id.webview)
+        myWebView.loadUrl("https://arcade.makecode.com/92547-17452-72462-35353")
 
         dayNightSwitch.setDuration(450)
         dayNightSwitch.setListener { is_night ->
