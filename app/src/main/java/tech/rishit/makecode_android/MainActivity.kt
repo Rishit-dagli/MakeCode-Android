@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
 
         dayNightSwitch = findViewById<View>(R.id.dayNight) as DayNightSwitch
         background_view = findViewById(R.id.background_view)
-        textView = findViewById(R.id.textView2)
 
         dayNightSwitch.setDuration(450)
         dayNightSwitch.setListener { is_night ->
