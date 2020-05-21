@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MakeCode-Android</string>
+    <string name="makecode_project">https://arcade.makecode.com/92547-17452-72462-35353</string>
 </resources>

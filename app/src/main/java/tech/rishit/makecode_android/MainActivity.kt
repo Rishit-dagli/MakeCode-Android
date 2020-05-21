@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         dayNightSwitch = findViewById<View>(R.id.dayNight) as DayNightSwitch
         background_view = findViewById(R.id.background_view)
         myWebView = findViewById(R.id.webview)
-        myWebView.loadUrl("https://arcade.makecode.com/92547-17452-72462-35353")
+        myWebView.loadUrl()
 
         dayNightSwitch.setDuration(450)
         dayNightSwitch.setListener { is_night ->
