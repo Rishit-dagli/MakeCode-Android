@@ -14,6 +14,9 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 import com.mahfa.dnswitch.DayNightSwitch
 import org.w3c.dom.Text
+import android.webkit.WebViewClient
+
+
 
 class MainActivity : AppCompatActivity() {
     lateinit var dayNightSwitch: DayNightSwitch
@@ -60,5 +63,17 @@ class MainActivity : AppCompatActivity() {
             i.data = Uri.parse(github_project)
             startActivity(i)
         }
+    }
+}
+
+class MyWebClient : WebViewClient() {
+
+    override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
+        view.loadUrl(url)
+        return true
+    }
+
+    override fun onPageFinished(view: WebView, url: String) {
+        view.loadUrl("javascript:document.getElementById(id).style.display = 'none';")
     }
 }
