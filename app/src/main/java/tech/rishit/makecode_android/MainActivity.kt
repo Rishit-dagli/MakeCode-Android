@@ -42,10 +42,11 @@ class MainActivity : AppCompatActivity() {
         dayNightSwitch.setListener { is_night ->
             if (is_night) {
                 Toast.makeText(this@MainActivity, "Night Mode!", Toast.LENGTH_SHORT).show()
+                project_name.setTextColor(Color.WHITE)
                 this.background_view.alpha = 1f
             } else {
                 Toast.makeText(this@MainActivity, "Day Mode!", Toast.LENGTH_SHORT).show()
-
+                project_name.setTextColor(Color.DKGRAY)
                 this.background_view.alpha = 0f
             }
         }
