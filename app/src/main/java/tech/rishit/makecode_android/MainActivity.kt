@@ -1,16 +1,13 @@
 package tech.rishit.makecode_android
 
-import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.webkit.WebView
-import android.widget.AutoCompleteTextView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 import com.mahfa.dnswitch.DayNightSwitch
-import com.mahfa.dnswitch.DayNightSwitchListener
 
 class MainActivity : AppCompatActivity() {
     lateinit var dayNightSwitch: DayNightSwitch
@@ -26,7 +23,9 @@ class MainActivity : AppCompatActivity() {
         dayNightSwitch = findViewById<View>(R.id.dayNight) as DayNightSwitch
         background_view = findViewById(R.id.background_view)
         myWebView = findViewById(R.id.webview)
-        myWebView.loadUrl()
+
+        val projectUrl: String = getString(R.string.makecode_project)
+        myWebView.loadUrl(projectUrl)
 
         dayNightSwitch.setDuration(450)
         dayNightSwitch.setListener { is_night ->
