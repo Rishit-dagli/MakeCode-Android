@@ -18,6 +18,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.mahfa.dnswitch.DayNightSwitch
 import org.w3c.dom.Text
 import android.webkit.WebViewClient
+import android.widget.ImageButton
 
 class MainActivity : AppCompatActivity() {
     lateinit var dayNightSwitch: DayNightSwitch
@@ -62,11 +63,15 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        github.setOnClickListener{
-            val github_project = getString(R.string.githubproject_url)
+        fun openUrl(url: String): Boolean{
             val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(github_project)
+            i.data = Uri.parse(url)
             startActivity(i)
+            return true
+        }
+
+        github.setOnClickListener{
+            openUrl(getString(R.string.githubproject_url))
         }
     }
 

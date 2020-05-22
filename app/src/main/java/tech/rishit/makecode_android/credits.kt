@@ -1,10 +1,12 @@
 package tech.rishit.makecode_android
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Color
+import android.net.Uri
 import android.os.AsyncTask
 import android.util.Log
 import android.view.View
@@ -78,11 +80,36 @@ class credits : AppCompatActivity() {
                 github.setBackgroundColor(Color.WHITE)
 
                 website.setImageResource(R.drawable.ic_link_black_24dp)
-                github.setImageResource(R.drawable.ic_github_black)
+                github.setColorFilter(ContextCompat.getColor(this, R.color.black_github),
+                    android.graphics.PorterDuff.Mode.SRC_IN)
 
                 this.background_view.alpha = 0f
             }
         }
+
+        fun openUrl(url: String): Boolean{
+            val i = Intent(Intent.ACTION_VIEW)
+            i.data = Uri.parse(url)
+            startActivity(i)
+            return true
+        }
+
+        github.setOnClickListener{
+            openUrl(getString(R.string.github_profile))
+        }
+        twitter.setOnClickListener{
+            openUrl(getString(R.string.twitter_url))
+        }
+        website.setOnClickListener{
+            openUrl(getString(R.string.website))
+        }
+        lnkdn.setOnClickListener{
+            openUrl(getString(R.string.linkedin_profile))
+        }
+        insta.setOnClickListener {
+            openUrl(getString(R.string.insta_profile))
+        }
+
     }
 }
 
@@ -95,7 +122,8 @@ private class DownloadImageTask(internal var bmImage: ImageView) :
         try {
             val `in` = java.net.URL(urldisplay).openStream()
             mIcon11 = BitmapFactory.decodeStream(`in`)
-        } catch (e: Exception) {
+        }
+        catch (e: Exception) {
             Log.e("Error", e.message)
             e.printStackTrace()
         }
