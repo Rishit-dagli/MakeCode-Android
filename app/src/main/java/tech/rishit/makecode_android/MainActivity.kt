@@ -5,6 +5,8 @@ import android.content.Intent
 import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.webkit.CookieManager
 import android.webkit.WebView
@@ -66,6 +68,21 @@ class MainActivity : AppCompatActivity() {
             i.data = Uri.parse(github_project)
             startActivity(i)
         }
+    }
 
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.author_menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        var id: Int = item.itemId
+
+        if (id == R.id.credits){
+            val intent = Intent(this, credits::class.java)
+            startActivity(intent)
+        }
+
+        return true
     }
 }
