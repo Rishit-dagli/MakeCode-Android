@@ -9,14 +9,16 @@ import android.os.AsyncTask
 import android.util.Log
 import android.view.View
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import com.mahfa.dnswitch.DayNightSwitch
-import kotlinx.android.synthetic.main.activity_main.*
 
 
 class credits : AppCompatActivity() {
     lateinit var dayNightSwitch: DayNightSwitch
     lateinit var background_view: View
+    lateinit var header: TextView
+    lateinit var bio:TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,6 +26,8 @@ class credits : AppCompatActivity() {
 
         dayNightSwitch = findViewById<View>(R.id.dayNight) as DayNightSwitch
         background_view = findViewById(R.id.background_view)
+        header = findViewById(R.id.Header)
+        bio = findViewById(R.id.bio)
 
         DownloadImageTask(findViewById(R.id.profile_photo))
             .execute(getString(R.string.profile_picture_url))
@@ -33,9 +37,13 @@ class credits : AppCompatActivity() {
         dayNightSwitch.setListener { is_night ->
             if (is_night) {
                 Toast.makeText(this@credits, "Night Mode!", Toast.LENGTH_SHORT).show()
+                header.setTextColor(Color.WHITE)
+                bio.setTextColor(Color.WHITE)
                 this.background_view.alpha = 1f
             } else {
                 Toast.makeText(this@credits, "Day Mode!", Toast.LENGTH_SHORT).show()
+                header.setTextColor(Color.DKGRAY)
+                bio.setTextColor(Color.DKGRAY)
                 this.background_view.alpha = 0f
             }
         }
