@@ -14,6 +14,9 @@ class credits : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_credits)
+
+        DownloadImageTask(findViewById(R.id.imageView))
+            .execute("https://i.imgur.com/UPdS10R.jpg");
     }
 }
 
