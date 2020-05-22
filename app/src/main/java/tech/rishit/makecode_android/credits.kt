@@ -15,7 +15,7 @@ class credits : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_credits)
 
-        DownloadImageTask(findViewById(R.id.imageView))
+        DownloadImageTask(findViewById(R.id.profile_photo))
             .execute(getString(R.string.profile_picture_url));
     }
 }
