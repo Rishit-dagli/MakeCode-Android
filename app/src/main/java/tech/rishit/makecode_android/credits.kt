@@ -4,19 +4,41 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.graphics.Color
 import android.os.AsyncTask
 import android.util.Log
+import android.view.View
 import android.widget.ImageView
+import android.widget.Toast
+import com.mahfa.dnswitch.DayNightSwitch
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class credits : AppCompatActivity() {
+    lateinit var dayNightSwitch: DayNightSwitch
+    lateinit var background_view: View
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_credits)
 
+        dayNightSwitch = findViewById<View>(R.id.dayNight) as DayNightSwitch
+        background_view = findViewById(R.id.background_view)
+
         DownloadImageTask(findViewById(R.id.profile_photo))
-            .execute(getString(R.string.profile_picture_url));
+            .execute(getString(R.string.profile_picture_url))
+
+        dayNightSwitch.setDuration(450)
+
+        dayNightSwitch.setListener { is_night ->
+            if (is_night) {
+                Toast.makeText(this@credits, "Night Mode!", Toast.LENGTH_SHORT).show()
+                this.background_view.alpha = 1f
+            } else {
+                Toast.makeText(this@credits, "Day Mode!", Toast.LENGTH_SHORT).show()
+                this.background_view.alpha = 0f
+            }
+        }
     }
 }
 
