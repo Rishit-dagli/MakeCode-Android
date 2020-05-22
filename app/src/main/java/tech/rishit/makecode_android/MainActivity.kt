@@ -17,8 +17,6 @@ import com.mahfa.dnswitch.DayNightSwitch
 import org.w3c.dom.Text
 import android.webkit.WebViewClient
 
-
-
 class MainActivity : AppCompatActivity() {
     lateinit var dayNightSwitch: DayNightSwitch
     lateinit var background_view: View
@@ -26,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var myWebView: WebView
     lateinit var github: FloatingActionButton
     lateinit var project_name: TextView
+    lateinit var footer: TextView
 
 
     @SuppressLint("SetJavaScriptEnabled")
@@ -38,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         myWebView = findViewById(R.id.webview)
         github = findViewById(R.id.github)
         project_name = findViewById(R.id.project_name)
+        this.footer = findViewById(R.id.footer)
 
         myWebView.settings.javaScriptEnabled = true
 
@@ -50,10 +50,12 @@ class MainActivity : AppCompatActivity() {
             if (is_night) {
                 Toast.makeText(this@MainActivity, "Night Mode!", Toast.LENGTH_SHORT).show()
                 project_name.setTextColor(Color.WHITE)
+                footer.setTextColor(Color.WHITE)
                 this.background_view.alpha = 1f
             } else {
                 Toast.makeText(this@MainActivity, "Day Mode!", Toast.LENGTH_SHORT).show()
                 project_name.setTextColor(Color.DKGRAY)
+                footer.setTextColor(Color.DKGRAY)
                 this.background_view.alpha = 0f
             }
         }
@@ -64,5 +66,6 @@ class MainActivity : AppCompatActivity() {
             i.data = Uri.parse(github_project)
             startActivity(i)
         }
+
     }
 }
