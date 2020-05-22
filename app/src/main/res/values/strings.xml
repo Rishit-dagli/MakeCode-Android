@@ -5,4 +5,5 @@
     <string name="content_description_github">GitHub repo for this project</string>
     <string name="githubproject_url">https://github.com/Rishit-dagli/MakeCode-Android</string>
     <string name="footer_description">Built by Rishit Dagli</string>
+    <string name="profile_picture_url">https://i.imgur.com/wR7mFmz.png</string>
 </resources>

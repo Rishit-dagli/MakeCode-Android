@@ -16,7 +16,7 @@ class credits : AppCompatActivity() {
         setContentView(R.layout.activity_credits)
 
         DownloadImageTask(findViewById(R.id.imageView))
-            .execute("https://i.imgur.com/UPdS10R.jpg");
+            .execute(getString(R.string.profile_picture_url));
     }
 }
 
