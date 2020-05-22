@@ -38,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="25dp"
             app:srcCompat="@color/colorAccent" />
 
         <TextView
@@ -84,7 +84,7 @@
             app:srcCompat="@drawable/ic_twitter" />
 
         <ImageButton
-            android:id="@+id/twitterbutton2"
+            android:id="@+id/website"
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:layout_weight="1"
@@ -93,7 +93,7 @@
             app:srcCompat="@drawable/ic_link_black_24dp" />
 
         <ImageButton
-            android:id="@+id/twitterbutton3"
+            android:id="@+id/lnkdn"
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:layout_weight="1"
@@ -102,7 +102,7 @@
             app:srcCompat="@drawable/ic_linkedin" />
 
         <ImageButton
-            android:id="@+id/twitterbutton4"
+            android:id="@+id/insta"
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:layout_weight="1"
@@ -111,7 +111,7 @@
             app:srcCompat="@drawable/ic_insta" />
 
         <ImageButton
-            android:id="@+id/twitterbutton5"
+            android:id="@+id/github"
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:layout_weight="1"
