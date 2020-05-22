@@ -66,7 +66,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
         android:background="#00FFFFFF"
         android:orientation="horizontal"
@@ -81,6 +81,42 @@
             android:background="@android:color/background_light"
             android:scaleType="centerInside"
             app:srcCompat="@drawable/ic_twitter" />
+
+        <ImageButton
+            android:id="@+id/twitterbutton2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_link_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/twitterbutton3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_linkedin" />
+
+        <ImageButton
+            android:id="@+id/twitterbutton4"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_insta" />
+
+        <ImageButton
+            android:id="@+id/twitterbutton5"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_github_black" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
