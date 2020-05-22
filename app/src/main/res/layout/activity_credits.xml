@@ -27,7 +27,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,14 +61,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/twitterbutton"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:background="@android:color/background_light"
-        android:scaleType="centerInside"
-        app:srcCompat="@drawable/ic_twitter"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="240dp" />
+    <LinearLayout
+        android:id="@+id/socialbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:background="#00FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_row">
+
+        <ImageButton
+            android:id="@+id/twitterbutton"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@android:color/background_light"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_twitter" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
