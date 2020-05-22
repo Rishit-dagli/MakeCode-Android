@@ -60,4 +60,15 @@
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/twitterbutton"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@android:color/background_light"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ic_twitter"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="240dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
