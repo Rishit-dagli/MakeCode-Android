@@ -16,12 +16,6 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.mahfa.dnswitch.DayNightSwitch
 import org.w3c.dom.Text
 import android.webkit.WebViewClient
-import androidx.core.app.ComponentActivity
-import androidx.core.app.ComponentActivity.ExtraData
-import androidx.core.content.ContextCompat.getSystemService
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-
-
 
 
 
@@ -45,10 +39,10 @@ class MainActivity : AppCompatActivity() {
         github = findViewById(R.id.github)
         project_name = findViewById(R.id.project_name)
 
+        myWebView.settings.javaScriptEnabled = true
+
         val projectUrl: String = getString(R.string.makecode_project)
         myWebView.loadUrl(projectUrl)
-
-        CookieManager.getInstance().setAcceptCookie(true);
 
         dayNightSwitch.setDuration(450)
 
