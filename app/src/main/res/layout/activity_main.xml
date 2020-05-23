@@ -99,6 +99,24 @@
         app:layout_constraintTop_toTopOf="@+id/webview" />
 
     <View
+        android:id="@+id/left_cover"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_cover"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_cover" />
+
+    <View
+        android:id="@+id/right_cover"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_cover"
+        app:layout_constraintEnd_toEndOf="@+id/webview"
+        app:layout_constraintTop_toBottomOf="@+id/top_cover" />
+
+    <View
         android:id="@+id/bottom_cover"
         android:layout_width="wrap_content"
         android:layout_height="110dp"
