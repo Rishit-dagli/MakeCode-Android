@@ -1,3 +1,21 @@
+/*
+ * Created by Rishit Dagli on 5/23/20 3:45 AM
+ * Copyright (c) 2020.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ *
+ * You may obtain a copy of the License at-
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License
+ */
+
 package tech.rishit.makecode_android
 
 import android.annotation.SuppressLint
@@ -23,7 +41,6 @@ import android.widget.ImageButton
 class MainActivity : AppCompatActivity() {
     lateinit var dayNightSwitch: DayNightSwitch
     lateinit var background_view: View
-    lateinit var textView: TextView
     lateinit var myWebView: WebView
     lateinit var github: FloatingActionButton
     lateinit var project_name: TextView
@@ -55,7 +72,8 @@ class MainActivity : AppCompatActivity() {
                 project_name.setTextColor(Color.WHITE)
                 footer.setTextColor(Color.WHITE)
                 this.background_view.alpha = 1f
-            } else {
+            }
+            else {
                 Toast.makeText(this@MainActivity, "Day Mode!", Toast.LENGTH_SHORT).show()
                 project_name.setTextColor(Color.DKGRAY)
                 footer.setTextColor(Color.DKGRAY)
@@ -81,7 +99,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        var id: Int = item.itemId
+        val id: Int = item.itemId
 
         if (id == R.id.credits){
             val intent = Intent(this, credits::class.java)
