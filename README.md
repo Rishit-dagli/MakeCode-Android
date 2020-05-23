@@ -145,6 +145,42 @@ Open [strings.xml](app/src/main/res/values/strings.xml), edit each of the values
 
 Open [colors.xml](app/src/main/res/values/colors.xml), edit any colors if you need to
 
+## Contributing
+
+### 1. Ready, Set, Go!!! :turtle::rabbit2:
+Once you have completed these steps, you are ready to start contributing by checking our `Help Wanted` Issues and creating [pull requests](https://github.com/Rishit-dagli/MakeCode-Android.git/pulls).
+
+### 2. Create a new branch :bangbang:
+Whenever you are going to make contribution. Please create separate branch using command and keep your `master` branch clean (i.e. synced with remote branch).
+```sh
+# It will create a new branch with name Branch_Name and switch to branch Folder_Name
+$ git checkout -b Folder_Name
+```
+Create a separate branch for contribution and try to use same name of branch as of folder.
+To switch to desired branch
+```sh
+# To switch from one folder to other
+$ git checkout Folder_Name
+```
+To add the changes to the branch. Use
+```sh
+# To add all files to branch Folder_Name
+$ git add .
+```
+Type in a message relevant for the code reviewer using
+```sh
+# This message get associated with all files you have changed
+$ git commit -m 'relevant message'
+```
+### 3. Push your awesome work to your remote repository :rocket:
+```sh
+# To push your work to your remote repository
+$ git push -u origin Folder_Name
+```
+### 4. Finally, make a PR! :fire:
+Go to your repository in browser and click on `compare and pull requests`.
+Then add a title and description to your pull request that explains your precious effort.
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
