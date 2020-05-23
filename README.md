@@ -26,6 +26,11 @@ is completely **beginner friendly** which means even if you don't know about And
       - [Editing files](#editing-files)
         * [Step 1](#step-1)
         * [Step 2](#step-2)
+  * [Contributing](#contributing)
+    + [1. Ready, Set, Go!!! :turtle::rabbit2:](#1-ready-set-go-turtlerabbit2)
+    + [2. Create a new branch :bang::bang:](#2-create-a-new-branch-bangbang)
+    + [3. Push your awesome work to your remote repository :rocket:](#3-push-your-awesome-work-to-your-remote-repository-rocket)
+    + [4. Finally, make a PR! :fire:](#4-finally-make-a-pr-fire)
   * [Contributors ✨](#contributors-)
 ## What to expect
 
