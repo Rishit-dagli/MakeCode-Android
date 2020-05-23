@@ -12,19 +12,31 @@ is completely **beginner friendly** which means even if you don't know about And
 
 ## What this document contains
 
-1. [What to expect](#what-to-expect)
-2. [Tools used](#technologies-used)
-
+- [MakeCode-Android](#makecode-android)
+  * [What to expect](#what-to-expect)
+  * [Tools Used](#tools-used)
+  * [Using this Project](#using-this-project)
+    + [1. Fork this repository :fork_and_knife:](#1-fork-this-repository--fork-and-knife-)
+    + [2. Clone this repository :busts_in_silhouette:](#2-clone-this-repository--busts-in-silhouette-)
+    + [3. Set it up :wrench:](#3-set-it-up--wrench-)
+    + [4. Editing this Project for your needs](#4-editing-this-project-for-your-needs)
+      - [Open project in your preferred editor](#open-project-in-your-preferred-editor)
+      - [Understanding files which you should care about](#understanding-files-which-you-should-care-about)
+      - [Editing files](#editing-files)
+        * [Step 1](#step-1)
+        * [Step 2](#step-2)
+  * [Contributors ✨](#contributors--)
 ## What to expect
 
 This project shows you how you could set up an Android project with a good UI, in very little time. You should expect to be able to run 
 your MakeCode example in this manner-
 
-![](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/Screenshots/credits_b_and_w.png)
-
 ![](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/Screenshots/game_b_and_w.png)
 
-Everything you see on the screen is completely customizable.
+![](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/Screenshots/credits_b_and_w.png)
+
+Everything you see on the screen is completely customizable. While this document we will refer the first image here as `Page 1` and the
+second one as `Page 2` of the app.
 
 ## Tools Used
 
@@ -33,6 +45,104 @@ Everything you see on the screen is completely customizable.
 * UI built using [XML](https://en.wikipedia.org/wiki/XML)
 * Open-source build automation using [Gradle](https://gradle.org/)
 * [Figma](https://www.figma.com/) to design the images
+
+## Using this Project
+
+### 1. Fork this repository :fork_and_knife:
+
+You can get your own fork/copy of [MakeCode-Android](https://github.com/Rishit-dagli/MakeCode-Android) by using the <a href="https://github.com/Rishit-dagli/MakeCode-Android/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button or clicking [here](https://github.com/Rishit-dagli/MakeCode-Android/new/master?readme=1#fork-destination-box).
+ [![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/CoderJolly/IPU-Engineering-Notes)
+ 
+ 
+### 2. Clone this repository :busts_in_silhouette:
+You need to clone (download a copy of) this repository to your local machine using:
+```sh
+$ git clone https://github.com/Your_Username/MakeCode-Android.git
+```
+> This makes a local copy of repository in your machine.
+Once you have cloned the `MakeCode-Android` repository in GitHub, move to that folder first using change directory command on linux and Mac.
+```sh
+# This will change directory to a folder Python3-by-practice
+$ cd MakeCode-Android
+```
+Move to this folder for all other commands.
+
+### 3. Set it up :wrench:
+Run the following commands to see that *your local copy* has a reference to *your forked remote repository* in GitHub :octocat:
+```sh
+$ git remote -v
+origin  https://github.com/Your_Username/MakeCode-Android.git (fetch)
+origin  https://github.com/Your_Username/MakeCode-Android.git (push)
+```
+Now, lets add a reference to the original [Python3-by-practice](https://github.com/Rishit-dagli/MakeCode-Android) repository using
+```sh
+$ git remote add upstream https://github.com/Rishit-dagli/MakeCode-Android.git
+```
+> This adds a new remote named ***upstream***.
+See the changes using
+```sh
+$ git remote -v
+origin    https://github.com/Your_Username/MakeCode-Android.git (fetch)
+origin    https://github.com/Your_Username/MakeCode-Android.git (push)
+upstream  https://github.com/marwahmanbir/MakeCode-Android.git (fetch)
+upstream  https://github.com/marwahmanbir/MakeCode-Android.git (push)
+```
+
+### 4. Editing this Project for your needs
+
+#### Open project in your preferred editor
+
+You can essentially open the project in any editor but I would advise you to have an editor which can have a virtual device so you can 
+test out your project locally. The editors I would suggest are-
+
+* [VS Code](https://code.visualstudio.com/) is one of the best editors and you can have all you need with it. It is best if your machine
+does not have very great specs, its is pretty light weight too.
+* [Android Studio](https://developer.android.com/studio) is the officially preferred editor for Android development, however it might 
+require your machine to have great specs to run it efficiently.
+
+#### Understanding files which you should care about
+
+There are majorly two files you would have to edit:
+
+* [colors.xml](app/src/main/res/values/colors.xml)
+
+This is the file where you would edit the colors you need for your app.
+
+* [strings.xml](app/src/main/res/values/strings.xml)
+
+You would majorly focus on editing this as most of the content would be built for you from here
+
+A few other files:
+
+* [MainActivity.kt](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/app/src/main/java/tech/rishit/makecode_android/MainActivity.kt) - The file used to write the Kotlin code for Page 1
+* [Credits.kt](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/app/src/main/java/tech/rishit/makecode_android/credits.kt)- The file used to write the Kotlin code for Page 2
+* [activity_main.xml](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/app/src/main/res/layout/activity_main.xml)- The UI code for Page 1
+* [activity_credits.xml](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/app/src/main/res/layout/activity_credits.xml)- The UI code for Page 2
+
+#### Editing files
+
+##### Step 1
+
+Open [strings.xml](app/src/main/res/values/strings.xml), edit each of the values according to this table
+
+|Name|Purpose|
+|----|-------|
+|app_name|The name that appears in top bar|
+|makecode_project|Your MakeCode project URL|
+|project_name|The name that appears under the top bar|
+|githubproject_ur|Your MakeCode project GitHub URL|
+|footer_description|Footer on Page 1|
+|profile_picture_url|Your profile picture URL on Page 2|
+|bio|Your bio|
+|github_profile|Your personal GitHub profile|
+|twitter_url|Your Twitter URL|
+|website|Your website link|
+|linkedin_profile|Your LinkedIn profile URL|
+|insta_profile|Your Instagram profile URL|
+
+##### Step 2
+
+Open [colors.xml](app/src/main/res/values/colors.xml), edit any colors if you need to
 
 ## Contributors ✨
 
