@@ -32,6 +32,7 @@ Everything you see on the screen is completely customizable.
 * Code built using [Kotlin](https://kotlinlang.org/)
 * UI built using [XML](https://en.wikipedia.org/wiki/XML)
 * Open-source build automation using [Gradle](https://gradle.org/)
+* [Figma](https://www.figma.com/) to design the images
 
 ## Contributors ✨
 
