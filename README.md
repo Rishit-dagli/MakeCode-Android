@@ -16,16 +16,16 @@ is completely **beginner friendly** which means even if you don't know about And
   * [What to expect](#what-to-expect)
   * [Tools Used](#tools-used)
   * [Using this Project](#using-this-project)
-    + [1. Fork this repository :fork_and_knife:](#1-fork-this-repository--fork-and-knife-)
-    + [2. Clone this repository :busts_in_silhouette:](#2-clone-this-repository--busts-in-silhouette-)
-    + [3. Set it up :wrench:](#3-set-it-up--wrench-)
+    + [1. Fork this repository :fork_and_knife:](#1-fork-this-repository-fork_and_knife)
+    + [2. Clone this repository :busts_in_silhouette:](#2-clone-this-repository-busts_in_silhouette)
+    + [3. Set it up :wrench:](#3-set-it-up-wrench)
     + [4. Editing this Project for your needs](#4-editing-this-project-for-your-needs)
       - [Open project in your preferred editor](#open-project-in-your-preferred-editor)
       - [Understanding files which you should care about](#understanding-files-which-you-should-care-about)
       - [Editing files](#editing-files)
         * [Step 1](#step-1)
         * [Step 2](#step-2)
-  * [Contributors ✨](#contributors--)
+  * [Contributors ✨](#contributors-)
 ## What to expect
 
 This project shows you how you could set up an Android project with a good UI, in very little time. You should expect to be able to run 
