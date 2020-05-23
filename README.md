@@ -10,6 +10,7 @@ is completely **beginner friendly** which means even if you don't know about And
 ## What this document contains
 
 1. [What to expect](#what-to-expect)
+2. [Technologies used](#technologies-used)
 
 ## What to expect
 
@@ -21,3 +22,10 @@ your MakeCode example in this manner-
 ![](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/Screenshots/game_b_and_w.png)
 
 Everything you see on the screen is completely customizable.
+
+## Technologies used
+
+* [MakeCode Arcade](https://arcade.makecode.com/) to build the major Arcade game
+* Code built using [Kotlin](https://kotlinlang.org/)
+* UI built using [XML](https://en.wikipedia.org/wiki/XML)
+* Open-source build automation using [Gradle](https://gradle.org/)
