@@ -13,7 +13,7 @@ is completely **beginner friendly** which means even if you don't know about And
 ## What this document contains
 
 1. [What to expect](#what-to-expect)
-2. [Technologies used](#technologies-used)
+2. [Tools used](#technologies-used)
 
 ## What to expect
 
@@ -26,7 +26,7 @@ your MakeCode example in this manner-
 
 Everything you see on the screen is completely customizable.
 
-## Technologies used
+## Tools Used
 
 * [MakeCode Arcade](https://arcade.makecode.com/) to build the major Arcade game
 * Code built using [Kotlin](https://kotlinlang.org/)
