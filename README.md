@@ -12,6 +12,8 @@ MakeCode in Android or IoS. This project shows how you could run your MakeCode p
 is completely **beginner friendly** which means even if you don't know about Android, you can still get the project up and running 
 (Detailed instructions meantioned below)
 
+If you have contributed in any form to this project, reporting [Issues](https://github.com/Rishit-dagli/MakeCode-Android/issues) and/or opening [Pull Requests](https://github.com/Rishit-dagli/MakeCode-Android/pulls) find your name and photo at [Contributors ✨](#contributors-)
+
 ## What this document contains
 
 - [MakeCode-Android](#makecode-android)
