@@ -51,6 +51,8 @@ second one as `Page 2` of the app.
 * Code built using [Kotlin](https://kotlinlang.org/)
 * UI built using [XML](https://en.wikipedia.org/wiki/XML)
 * Open-source build automation using [Gradle](https://gradle.org/)
+* CI for Gradle Builds using [GitHub Actions](https://github.com/features/actions)
+* CI for Gradle Builds and UI Tests using [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/)
 * [Figma](https://www.figma.com/) to design the images
 
 ## Using this Project
