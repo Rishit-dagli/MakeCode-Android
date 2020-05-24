@@ -97,7 +97,7 @@ upstream  https://github.com/marwahmanbir/MakeCode-Android.git (fetch)
 upstream  https://github.com/marwahmanbir/MakeCode-Android.git (push)
 ```
 
-### 4. Editing this Project for your needs
+### 4. Editing this Project for your needs :gear:
 
 #### Open project in your preferred editor
 
