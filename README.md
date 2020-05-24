@@ -21,7 +21,7 @@ is completely **beginner friendly** which means even if you don't know about And
     + [1. Fork this repository :fork_and_knife:](#1-fork-this-repository-fork_and_knife)
     + [2. Clone this repository :busts_in_silhouette:](#2-clone-this-repository-busts_in_silhouette)
     + [3. Set it up :wrench:](#3-set-it-up-wrench)
-    + [4. Editing this Project for your needs](#4-editing-this-project-for-your-needs)
+    + [4. Editing this Project for your needs](#4-editing-this-project-for-your-needs-gear)
       - [Open project in your preferred editor](#open-project-in-your-preferred-editor)
       - [Understanding files which you should care about](#understanding-files-which-you-should-care-about)
       - [Editing files](#editing-files)
