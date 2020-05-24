@@ -153,6 +153,8 @@ Open [strings.xml](app/src/main/res/values/strings.xml), edit each of the values
 
 Open [colors.xml](app/src/main/res/values/colors.xml), edit any colors if you need to
 
+And now you are all done your app is ready :smiley: .
+
 ## Contributing
 
 ### 1. Ready, Set, Go!!! :turtle::rabbit2:
