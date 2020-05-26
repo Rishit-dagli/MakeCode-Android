@@ -42,16 +42,14 @@
 
     <WebView
         android:id="@+id/webview"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="75dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/footer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dayNight"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toBottomOf="@+id/dayNight">
 
     </WebView>
 
@@ -60,9 +58,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
         android:text="@string/project_name"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/webview"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/background_view" />
 
@@ -87,42 +85,6 @@
         android:text="@string/footer_description"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <View
-        android:id="@+id/top_cover"
-        android:layout_width="wrap_content"
-        android:layout_height="130dp"
-        android:background="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/webview" />
-
-    <View
-        android:id="@+id/left_cover"
-        android:layout_width="70dp"
-        android:layout_height="0dp"
-        android:background="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/bottom_cover"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/top_cover" />
-
-    <View
-        android:id="@+id/right_cover"
-        android:layout_width="70dp"
-        android:layout_height="0dp"
-        android:background="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/bottom_cover"
-        app:layout_constraintEnd_toEndOf="@+id/webview"
-        app:layout_constraintTop_toBottomOf="@+id/top_cover" />
-
-    <View
-        android:id="@+id/bottom_cover"
-        android:layout_width="wrap_content"
-        android:layout_height="120dp"
-        android:background="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/webview"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

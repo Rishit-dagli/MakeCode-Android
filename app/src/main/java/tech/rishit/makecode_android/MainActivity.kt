@@ -23,6 +23,7 @@ import android.content.Intent
 import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -62,18 +63,18 @@ class MainActivity : AppCompatActivity() {
         github = findViewById(R.id.github)
         project_name = findViewById(R.id.project_name)
         this.footer = findViewById(R.id.footer)
-        left_cover = findViewById(R.id.left_cover)
-        right_cover = findViewById(R.id.right_cover)
-        top_cover = findViewById(R.id.top_cover)
-        bottom_cover = findViewById(R.id.bottom_cover)
+//        left_cover = findViewById(R.id.left_cover)
+//        right_cover = findViewById(R.id.right_cover)
+//        top_cover = findViewById(R.id.top_cover)
+//        bottom_cover = findViewById(R.id.bottom_cover)
 
         myWebView.settings.javaScriptEnabled = true
 
-        val projectUrl: String = getString(R.string.makecode_project)
+        val projectUrl: String = "<div style=\"position:relative;height:0;padding-bottom:117.6%;overflow:hidden;\"><iframe style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" src=\"https://arcade.makecode.com/---run?id=_df5TAVWsvJ4d\" allowfullscreen=\"allowfullscreen\" sandbox=\"allow-popups allow-forms allow-scripts allow-same-origin\" frameborder=\"0\"></iframe></div>"
         val mimeType = "text/html"
-        val encoding = "UTF-8"
+        val encoding = "utf-8"
 
-        myWebView.loadDataWithBaseURL("", projectUrl, mimeType, encoding, "");
+        myWebView.loadDataWithBaseURL("",projectUrl,mimeType,encoding,"")
 
         dayNightSwitch.setDuration(450)
 
@@ -83,10 +84,10 @@ class MainActivity : AppCompatActivity() {
                 project_name.setTextColor(Color.WHITE)
                 footer.setTextColor(Color.WHITE)
 
-                left_cover.setBackgroundColor(Color.BLACK)
-                right_cover.setBackgroundColor(Color.BLACK)
-                top_cover.setBackgroundColor(Color.BLACK)
-                bottom_cover.setBackgroundColor(Color.BLACK)
+//                left_cover.setBackgroundColor(Color.BLACK)
+//                right_cover.setBackgroundColor(Color.BLACK)
+//                top_cover.setBackgroundColor(Color.BLACK)
+//                bottom_cover.setBackgroundColor(Color.BLACK)
 
                 this.background_view.alpha = 1f
             }
@@ -95,10 +96,10 @@ class MainActivity : AppCompatActivity() {
                 project_name.setTextColor(Color.DKGRAY)
                 footer.setTextColor(Color.DKGRAY)
 
-                left_cover.setBackgroundColor(Color.WHITE)
-                right_cover.setBackgroundColor(Color.WHITE)
-                top_cover.setBackgroundColor(Color.WHITE)
-                bottom_cover.setBackgroundColor(Color.WHITE)
+//                left_cover.setBackgroundColor(Color.WHITE)
+//                right_cover.setBackgroundColor(Color.WHITE)
+//                top_cover.setBackgroundColor(Color.WHITE)
+//                bottom_cover.setBackgroundColor(Color.WHITE)
 
                 this.background_view.alpha = 0f
             }
