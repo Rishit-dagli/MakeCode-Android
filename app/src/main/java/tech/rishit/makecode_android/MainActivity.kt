@@ -70,7 +70,10 @@ class MainActivity : AppCompatActivity() {
         myWebView.settings.javaScriptEnabled = true
 
         val projectUrl: String = getString(R.string.makecode_project)
-        myWebView.loadUrl(projectUrl)
+        val mimeType = "text/html"
+        val encoding = "UTF-8"
+
+        myWebView.loadDataWithBaseURL("", projectUrl, mimeType, encoding, "");
 
         dayNightSwitch.setDuration(450)
 
