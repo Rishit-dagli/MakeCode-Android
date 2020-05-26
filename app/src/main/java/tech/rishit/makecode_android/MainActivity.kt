@@ -47,10 +47,6 @@ class MainActivity : AppCompatActivity() {
     lateinit var github: FloatingActionButton
     lateinit var project_name: TextView
     lateinit var footer: TextView
-    lateinit var left_cover: View
-    lateinit var right_cover: View
-    lateinit var top_cover: View
-    lateinit var bottom_cover: View
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -63,10 +59,6 @@ class MainActivity : AppCompatActivity() {
         github = findViewById(R.id.github)
         project_name = findViewById(R.id.project_name)
         this.footer = findViewById(R.id.footer)
-//        left_cover = findViewById(R.id.left_cover)
-//        right_cover = findViewById(R.id.right_cover)
-//        top_cover = findViewById(R.id.top_cover)
-//        bottom_cover = findViewById(R.id.bottom_cover)
 
         myWebView.settings.javaScriptEnabled = true
 
@@ -84,22 +76,12 @@ class MainActivity : AppCompatActivity() {
                 project_name.setTextColor(Color.WHITE)
                 footer.setTextColor(Color.WHITE)
 
-//                left_cover.setBackgroundColor(Color.BLACK)
-//                right_cover.setBackgroundColor(Color.BLACK)
-//                top_cover.setBackgroundColor(Color.BLACK)
-//                bottom_cover.setBackgroundColor(Color.BLACK)
-
                 this.background_view.alpha = 1f
             }
             else {
                 Toast.makeText(this@MainActivity, "Day Mode!", Toast.LENGTH_SHORT).show()
                 project_name.setTextColor(Color.DKGRAY)
                 footer.setTextColor(Color.DKGRAY)
-
-//                left_cover.setBackgroundColor(Color.WHITE)
-//                right_cover.setBackgroundColor(Color.WHITE)
-//                top_cover.setBackgroundColor(Color.WHITE)
-//                bottom_cover.setBackgroundColor(Color.WHITE)
 
                 this.background_view.alpha = 0f
             }
