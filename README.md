@@ -29,6 +29,7 @@ If you have contributed in any form to this project, reporting [Issues](https://
       - [Editing files](#editing-files)
         * [Step 1](#step-1)
         * [Step 2](#step-2)
+        * [Step 3](#step-3)
   * [Contributing](#contributing)
     + [1. Ready, Set, Go!!! :turtle::rabbit2:](#1-ready-set-go-turtlerabbit2)
     + [2. Create a new branch :bangbang:](#2-create-a-new-branch-bangbang)
@@ -139,9 +140,8 @@ Open [strings.xml](app/src/main/res/values/strings.xml), edit each of the values
 |Name|Purpose|
 |----|-------|
 |app_name|The name that appears in top bar|
-|makecode_project|Your MakeCode project URL|
 |project_name|The name that appears under the top bar|
-|githubproject_ur|Your MakeCode project GitHub URL|
+|githubproject_url|Your MakeCode project GitHub URL|
 |footer_description|Footer on Page 1|
 |profile_picture_url|Your profile picture URL on Page 2|
 |bio|Your bio|
@@ -152,6 +152,17 @@ Open [strings.xml](app/src/main/res/values/strings.xml), edit each of the values
 |insta_profile|Your Instagram profile URL|
 
 ##### Step 2
+
+Navigate to [MainActivity.kt](app/src/main/java/tech/rishit/makecode_android/MainActivity.kt), Line 69.
+add your project id in the following format:
+
+```kotlin
+"id=[PROJECT_ID] "
+```
+
+Eg. If your shareable URL is `https://makecode.com/_df5TAVWsvJ4d` then your `project_id` would be `_df5TAVWsvJ4d`
+
+##### Step 3
 
 Open [colors.xml](app/src/main/res/values/colors.xml), edit any colors if you need to
 
