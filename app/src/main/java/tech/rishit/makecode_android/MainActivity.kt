@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
 
         myWebView.settings.javaScriptEnabled = true
 
-        val projectUrl: String = getString(R.string.makecode_project)
+        val projectUrl: String = "<div style=\"position:relative;height:0;padding-bottom:117.6%;overflow:hidden;\"><iframe style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" src=\"https://arcade.makecode.com/---run?id=_df5TAVWsvJ4d\" allowfullscreen=\"allowfullscreen\" sandbox=\"allow-popups allow-forms allow-scripts allow-same-origin\" frameborder=\"0\"></iframe></div"
         val mimeType = "text/html"
         val encoding = "utf-8"
 
