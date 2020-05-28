@@ -7,13 +7,14 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This project is completely inspired by [Microsoft Build 2020 Student Zone](https://github.com/microsoft/StudentsAtBuild). From the 
-wonderful talks presented at  [Microsoft Build 2020 Student Zone](https://github.com/microsoft/StudentsAtBuild) about [Microsoft MakeCode 
-Arcade](https://arcade.makecode.com/), I noticed that there was no native suppport or any such tool to convert or un the games made in
-MakeCode in Android or IoS. This project shows how you could run your MakeCode project on Android (IoS support coming soon!). The project 
-is completely **beginner friendly** which means even if you don't know about Android, you can still get the project up and running 
-(Detailed instructions meantioned below)
+wonderful talks presented at  [Microsoft Build 2020 Student Zone](https://github.com/microsoft/StudentsAtBuild) about [Microsoft MakeCode Arcade](https://arcade.makecode.com/), 
+I noticed that there was no native suppport or any such tool to convert or run the games made in
+MakeCode in Android or IoS. This project shows how you could run your MakeCode project on Android (IoS support coming soon!). 
+The project is completely **beginner friendly** which means even if you don't know about Android, you can still get the project up and 
+running (Detailed instructions meantioned below)
 
-If you have contributed in any form to this project, reporting [Issues](https://github.com/Rishit-dagli/MakeCode-Android/issues) and/or opening [Pull Requests](https://github.com/Rishit-dagli/MakeCode-Android/pulls) find your name and photo at [Contributors ✨](#contributors-)
+If you have contributed in any form to this project, reporting [Issues](https://github.com/Rishit-dagli/MakeCode-Android/issues) and/or
+opening [Pull Requests](https://github.com/Rishit-dagli/MakeCode-Android/pulls) find your name and photo at [Contributors ✨](#contributors-)
 
 ## What this document contains
 
