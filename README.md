@@ -167,7 +167,8 @@ Eg. If your shareable URL is `https://makecode.com/_df5TAVWsvJ4d` then your `pro
 
 Open [colors.xml](app/src/main/res/values/colors.xml), edit any colors if you need to
 
-**And now you are all done your app is ready :smiley: .**
+**And now you are all done your app is ready :smiley: .** In case you face any error while doing so or any errors in the app, you are
+welcome to report them [here](https://github.com/Rishit-dagli/MakeCode-Android/issues).
 
 ## Contributing
 
