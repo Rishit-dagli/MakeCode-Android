@@ -140,18 +140,18 @@ A few other files:
 Open [strings.xml](app/src/main/res/values/strings.xml), edit each of the values according to this table
 
 |Name|Purpose|
-|----|-------|
-|app_name|The name that appears in top bar|
-|project_name|The name that appears under the top bar|
-|githubproject_url|Your MakeCode project GitHub URL|
-|footer_description|Footer on Page 1|
-|profile_picture_url|Your profile picture URL on Page 2|
-|bio|Your bio|
-|github_profile|Your personal GitHub profile|
-|twitter_url|Your Twitter URL|
-|website|Your website link|
-|linkedin_profile|Your LinkedIn profile URL|
-|insta_profile|Your Instagram profile URL|
+|----|----|
+|app_name|The name that appears in top bar
+|project_name|The name that appears under the top bar
+|githubproject_url|Your MakeCode project GitHub URL
+|footer_description|Footer on Page 1
+|profile_picture_url|Your profile picture URL on Page 2
+|bio|Your bio
+|github_profile|Your personal GitHub profile
+|twitter_url|Your Twitter URL
+|website|Your website link
+|linkedin_profile|Your LinkedIn profile URL
+|insta_profile|Your Instagram profile URL
 
 ##### Step 2
 
