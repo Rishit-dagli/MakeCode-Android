@@ -76,7 +76,7 @@ $ git clone https://github.com/Your_Username/MakeCode-Android.git
 > This makes a local copy of repository in your machine.
 Once you have cloned the `MakeCode-Android` repository in GitHub, move to that folder first using change directory command on linux and Mac.
 ```sh
-# This will change directory to a folder Python3-by-practice
+# This will change directory to a folder MakeCode-Android
 $ cd MakeCode-Android
 ```
 Move to this folder for all other commands.
@@ -88,7 +88,7 @@ $ git remote -v
 origin  https://github.com/Your_Username/MakeCode-Android.git (fetch)
 origin  https://github.com/Your_Username/MakeCode-Android.git (push)
 ```
-Now, lets add a reference to the original [Python3-by-practice](https://github.com/Rishit-dagli/MakeCode-Android) repository using
+Now, lets add a reference to the original [MakeCode-Android](https://github.com/Rishit-dagli/MakeCode-Android) repository using
 ```sh
 $ git remote add upstream https://github.com/Rishit-dagli/MakeCode-Android.git
 ```
