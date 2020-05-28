@@ -3,7 +3,7 @@
 ![Version](https://img.shields.io/badge/version-v0.2.0-red)
 [![Build Status](https://dev.azure.com/rishitdagli/MakeCode-Android/_apis/build/status/Rishit-dagli.MakeCode-Android?branchName=master)](https://dev.azure.com/rishitdagli/MakeCode-Android/_build/latest?definitionId=1&branchName=master)
 ![Android CI](https://github.com/Rishit-dagli/MakeCode-Android/workflows/Android%20CI/badge.svg)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This project is completely inspired by [Microsoft Build 2020 Student Zone](https://github.com/microsoft/StudentsAtBuild). From the 
@@ -217,6 +217,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.rishit.tech"><img src="https://avatars0.githubusercontent.com/u/39672672?v=4" width="100px;" alt=""/><br /><sub><b>Rishit Dagli</b></sub></a><br /><a href="https://github.com/Rishit-dagli/MakeCode-Android/commits?author=Rishit-dagli" title="Code">💻</a></td>
+    <td align="center"><a href="https://blog.iamprins.com"><img src="https://avatars2.githubusercontent.com/u/54654484?v=4" width="100px;" alt=""/><br /><sub><b>Ricardo Prins</b></sub></a><br /><a href="https://github.com/Rishit-dagli/MakeCode-Android/commits?author=ricardoprins" title="Documentation">📖</a></td>
   </tr>
 </table>
 
