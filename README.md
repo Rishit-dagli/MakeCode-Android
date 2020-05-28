@@ -43,9 +43,9 @@ opening [Pull Requests](https://github.com/Rishit-dagli/MakeCode-Android/pulls) 
 This project shows you how you could set up an Android project with a good UI, in very little time. You should expect to be able to run 
 your MakeCode example in this manner-
 
-![](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/Screenshots/game_b_and_w.png)
+![Game Black and White](Screenshots/game_b_and_w.png)
 
-![](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/Screenshots/credits_b_and_w.png)
+![Credits Black and White](Screenshots/credits_b_and_w.png)
 
 Everything you see on the screen is completely customizable. While this document we will refer the first image here as `Page 1` and the
 second one as `Page 2` of the app.
@@ -140,18 +140,18 @@ A few other files:
 Open [strings.xml](app/src/main/res/values/strings.xml), edit each of the values according to this table
 
 |Name|Purpose|
-|----|-------|
-|app_name|The name that appears in top bar|
-|project_name|The name that appears under the top bar|
-|githubproject_url|Your MakeCode project GitHub URL|
-|footer_description|Footer on Page 1|
-|profile_picture_url|Your profile picture URL on Page 2|
-|bio|Your bio|
-|github_profile|Your personal GitHub profile|
-|twitter_url|Your Twitter URL|
-|website|Your website link|
-|linkedin_profile|Your LinkedIn profile URL|
-|insta_profile|Your Instagram profile URL|
+|----|----|
+|app_name|The name that appears in top bar
+|project_name|The name that appears under the top bar
+|githubproject_url|Your MakeCode project GitHub URL
+|footer_description|Footer on Page 1
+|profile_picture_url|Your profile picture URL on Page 2
+|bio|Your bio
+|github_profile|Your personal GitHub profile
+|twitter_url|Your Twitter URL
+|website|Your website link
+|linkedin_profile|Your LinkedIn profile URL
+|insta_profile|Your Instagram profile URL
 
 ##### Step 2
 
