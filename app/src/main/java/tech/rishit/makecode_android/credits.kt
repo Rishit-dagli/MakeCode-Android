@@ -40,7 +40,7 @@ class credits : AppCompatActivity() {
     lateinit var dayNightSwitch: DayNightSwitch
     lateinit var background_view: View
     lateinit var header: TextView
-    lateinit var bio:TextView
+    lateinit var bio: TextView
 
     lateinit var twitter: ImageButton
     lateinit var website: ImageButton
@@ -81,12 +81,13 @@ class credits : AppCompatActivity() {
                 github.setBackgroundColor(Color.BLACK)
 
                 website.setImageResource(R.drawable.ic_link_white_24dp)
-                github.setColorFilter(ContextCompat.getColor(this, R.color.white_github),
-                    android.graphics.PorterDuff.Mode.SRC_IN)
+                github.setColorFilter(
+                    ContextCompat.getColor(this, R.color.white_github),
+                    android.graphics.PorterDuff.Mode.SRC_IN
+                )
 
                 this.background_view.alpha = 1f
-            }
-            else {
+            } else {
                 Toast.makeText(this@credits, "Day Mode!", Toast.LENGTH_SHORT).show()
                 header.setTextColor(Color.DKGRAY)
                 bio.setTextColor(Color.DKGRAY)
@@ -98,30 +99,32 @@ class credits : AppCompatActivity() {
                 github.setBackgroundColor(Color.WHITE)
 
                 website.setImageResource(R.drawable.ic_link_black_24dp)
-                github.setColorFilter(ContextCompat.getColor(this, R.color.black_github),
-                    android.graphics.PorterDuff.Mode.SRC_IN)
+                github.setColorFilter(
+                    ContextCompat.getColor(this, R.color.black_github),
+                    android.graphics.PorterDuff.Mode.SRC_IN
+                )
 
                 this.background_view.alpha = 0f
             }
         }
 
-        fun openUrl(url: String): Boolean{
+        fun openUrl(url: String): Boolean {
             val i = Intent(Intent.ACTION_VIEW)
             i.data = Uri.parse(url)
             startActivity(i)
             return true
         }
 
-        github.setOnClickListener{
+        github.setOnClickListener {
             openUrl(getString(R.string.github_profile))
         }
-        twitter.setOnClickListener{
+        twitter.setOnClickListener {
             openUrl(getString(R.string.twitter_url))
         }
-        website.setOnClickListener{
+        website.setOnClickListener {
             openUrl(getString(R.string.website))
         }
-        lnkdn.setOnClickListener{
+        lnkdn.setOnClickListener {
             openUrl(getString(R.string.linkedin_profile))
         }
         insta.setOnClickListener {
@@ -141,8 +144,7 @@ private class DownloadImageTask(internal var bmImage: ImageView) :
         try {
             val `in` = java.net.URL(urldisplay).openStream()
             mIcon11 = BitmapFactory.decodeStream(`in`)
-        }
-        catch (e: Exception) {
+        } catch (e: Exception) {
             Log.e("Error", e.message)
             e.printStackTrace()
         }
