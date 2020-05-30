@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
         val mimeType = "text/html"
         val encoding = "utf-8"
 
-        myWebView.loadDataWithBaseURL("",projectUrl,mimeType,encoding,"")
+        myWebView.loadDataWithBaseURL("", projectUrl, mimeType, encoding, "")
 
         dayNightSwitch.setDuration(450)
 
@@ -85,8 +85,7 @@ class MainActivity : AppCompatActivity() {
                 footer.setTextColor(Color.WHITE)
 
                 this.background_view.alpha = 1f
-            }
-            else {
+            } else {
                 Toast.makeText(this@MainActivity, "Day Mode!", Toast.LENGTH_SHORT).show()
                 project_name.setTextColor(Color.DKGRAY)
                 footer.setTextColor(Color.DKGRAY)
@@ -95,14 +94,14 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        fun openUrl(url: String): Boolean{
+        fun openUrl(url: String): Boolean {
             val i = Intent(Intent.ACTION_VIEW)
             i.data = Uri.parse(url)
             startActivity(i)
             return true
         }
 
-        github.setOnClickListener{
+        github.setOnClickListener {
             openUrl(getString(R.string.githubproject_url))
         }
     }
@@ -115,7 +114,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id: Int = item.itemId
 
-        if (id == R.id.credits){
+        if (id == R.id.credits) {
             val intent = Intent(this, credits::class.java)
             startActivity(intent)
         }
