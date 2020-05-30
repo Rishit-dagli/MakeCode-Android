@@ -44,9 +44,7 @@ opening [Pull Requests](https://github.com/Rishit-dagli/MakeCode-Android/pulls) 
 This project shows you how you could set up an Android project with a good UI, in very little time. You should expect to be able to run 
 your MakeCode example in this manner-
 
-![Game Black and White](Screenshots/game_b_and_w.png)
-
-![Credits Black and White](Screenshots/credits_b_and_w.png)
+![App Screenshots](Screenshots/MakeCode-Android_screenshots_b_and_w.png)
 
 Everything you see on the screen is completely customizable. While this document we will refer the first image here as `Page 1` and the
 second one as `Page 2` of the app.
