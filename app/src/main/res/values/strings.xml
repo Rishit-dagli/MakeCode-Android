@@ -18,7 +18,6 @@
 
 <resources>
     <string name="app_name">MakeCode-Android</string>
-    <string name="makecode_project"><![CDATA[<div style="position:relative;height:0;padding-bottom:117.6%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://arcade.makecode.com/---run?id=_df5TAVWsvJ4d" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>]]></string>
     <string name="project_name">MakeCode on Android</string>
     <string name="content_description_github">GitHub repo for this project</string>
     <string name="githubproject_url">https://github.com/Rishit-dagli/MakeCode-Android</string>
