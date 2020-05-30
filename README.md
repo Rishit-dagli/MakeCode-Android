@@ -38,6 +38,7 @@ opening [Pull Requests](https://github.com/Rishit-dagli/MakeCode-Android/pulls) 
     + [3. Push your awesome work to your remote repository :rocket:](#3-push-your-awesome-work-to-your-remote-repository-rocket)
     + [4. Finally, make a PR! :fire:](#4-finally-make-a-pr-fire)
   * [Contributors ✨](#contributors-)
+  
 ## What to expect
 
 This project shows you how you could set up an Android project with a good UI, in very little time. You should expect to be able to run 
@@ -143,6 +144,7 @@ Open [strings.xml](app/src/main/res/values/strings.xml), edit each of the values
 |----|----|
 |app_name|The name that appears in top bar
 |project_name|The name that appears under the top bar
+|project_id|Your Project ID to display the game (example below)
 |githubproject_url|Your MakeCode project GitHub URL
 |footer_description|Footer on Page 1
 |profile_picture_url|Your profile picture URL on Page 2
@@ -155,14 +157,11 @@ Open [strings.xml](app/src/main/res/values/strings.xml), edit each of the values
 
 ##### Step 2
 
-Navigate to [MainActivity.kt](app/src/main/java/tech/rishit/makecode_android/MainActivity.kt), Line 69.
-add your project id in the following format:
+Edit your `project_id`, make sure your `project_id` is correct and also consider rechecking it, this
+field is responsible for displaying your game.
 
-```kotlin
-"id=[PROJECT_ID] "
-```
-
-Eg. If your shareable URL is `https://makecode.com/_df5TAVWsvJ4d` then your `project_id` would be `_df5TAVWsvJ4d`
+Eg. If your shareable URL is `https://makecode.com/_df5TAVWsvJ4d\"` then your `project_id` would be 
+`_df5TAVWsvJ4d\"`
 
 ##### Step 3
 
