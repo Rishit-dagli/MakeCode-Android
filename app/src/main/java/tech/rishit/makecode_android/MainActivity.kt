@@ -23,11 +23,9 @@ import android.content.Intent
 import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.webkit.CookieManager
 import android.webkit.WebView
 import android.widget.TextView
 import android.widget.Toast
@@ -35,9 +33,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 import com.mahfa.dnswitch.DayNightSwitch
-import org.w3c.dom.Text
-import android.webkit.WebViewClient
-import android.widget.ImageButton
 
 class MainActivity : AppCompatActivity() {
 
