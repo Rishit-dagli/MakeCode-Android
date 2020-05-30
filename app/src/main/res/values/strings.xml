@@ -19,6 +19,7 @@
 <resources>
     <string name="app_name">MakeCode-Android</string>
     <string name="project_name">MakeCode on Android</string>
+    <string name="project_id">_df5TAVWsvJ4d\"</string>
     <string name="content_description_github">GitHub repo for this project</string>
     <string name="githubproject_url">https://github.com/Rishit-dagli/MakeCode-Android</string>
     <string name="footer_description">Built by Rishit Dagli</string>
