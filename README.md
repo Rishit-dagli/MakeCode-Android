@@ -5,10 +5,11 @@
 ![Android CI](https://github.com/Rishit-dagli/MakeCode-Android/workflows/Android%20CI/badge.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/Rishit-dagli/MakeCode-Android)
 
-This project is completely inspired by [Microsoft Build 2020 Student Zone](https://github.com/microsoft/StudentsAtBuild). From the 
-wonderful talks presented at  [Microsoft Build 2020 Student Zone](https://github.com/microsoft/StudentsAtBuild) about [Microsoft MakeCode Arcade](https://arcade.makecode.com/), 
+This project is completely inspired by [Microsoft Build 2020 Student Zone](https://github.com/microsoft/StudentsAtBuild). 
+From the wonderful talks presented at  [Microsoft Build 2020 Student Zone](https://github.com/microsoft/StudentsAtBuild) 
+about [Microsoft MakeCode Arcade](https://arcade.makecode.com/), 
 I noticed that there was no native suppport or any such tool to convert or run the games made in
-MakeCode in Android or IoS. This project shows how you could run your MakeCode project on Android (IoS support coming soon!). 
+**MakeCode in Android** or IoS. This project shows how you could run your MakeCode project on Android (IoS support coming soon!). 
 The project is completely **beginner friendly** which means even if you don't know about Android, you can still get the project up and 
 running (Detailed instructions meantioned below)
 
