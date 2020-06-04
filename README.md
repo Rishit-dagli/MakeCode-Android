@@ -147,7 +147,7 @@ Open [strings.xml](app/src/main/res/values/strings.xml), edit each of the values
 |footer_description|Footer on Page 1
 |profile_picture_url|Your profile picture URL on Page 2
 |bio|Your bio
-|github_profile|Your personal GitHub profile
+|github_profile|Your personal GitHub profile URL
 |twitter_url|Your Twitter URL
 |website|Your website link
 |linkedin_profile|Your LinkedIn profile URL
