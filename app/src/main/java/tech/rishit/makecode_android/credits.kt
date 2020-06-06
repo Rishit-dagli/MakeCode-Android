@@ -37,16 +37,16 @@ import com.mahfa.dnswitch.DayNightSwitch
 
 
 class credits : AppCompatActivity() {
-    lateinit var dayNightSwitch: DayNightSwitch
-    lateinit var backgroundView: View
-    lateinit var header: TextView
-    lateinit var bio: TextView
+    private lateinit var dayNightSwitch: DayNightSwitch
+    private lateinit var backgroundView: View
+    private lateinit var header: TextView
+    private lateinit var bio: TextView
 
-    lateinit var twitter: ImageButton
-    lateinit var website: ImageButton
-    lateinit var insta: ImageButton
-    lateinit var lnkdn: ImageButton
-    lateinit var github: ImageButton
+    private lateinit var twitter: ImageButton
+    private lateinit var website: ImageButton
+    private lateinit var insta: ImageButton
+    private lateinit var lnkdn: ImageButton
+    private lateinit var github: ImageButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
