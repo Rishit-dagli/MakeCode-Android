@@ -37,7 +37,7 @@ import com.mahfa.dnswitch.DayNightSwitch
 class MainActivity : AppCompatActivity() {
 
     private lateinit var dayNightSwitch: DayNightSwitch
-    private lateinit var background_view: View
+    private lateinit var backgroundView: View
     private lateinit var myWebView: WebView
     private lateinit var github: FloatingActionButton
     private lateinit var projectName: TextView
@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         dayNightSwitch = findViewById<View>(R.id.dayNight) as DayNightSwitch
-        background_view = findViewById(R.id.background_view)
+        backgroundView = findViewById(R.id.background_view)
         myWebView = findViewById(R.id.webview)
         github = findViewById(R.id.github)
         projectName = findViewById(R.id.project_name)
@@ -79,13 +79,13 @@ class MainActivity : AppCompatActivity() {
                 projectName.setTextColor(Color.WHITE)
                 footer.setTextColor(Color.WHITE)
 
-                this.background_view.alpha = 1f
+                this.backgroundView.alpha = 1f
             } else {
                 Toast.makeText(this@MainActivity, "Day Mode!", Toast.LENGTH_SHORT).show()
                 projectName.setTextColor(Color.DKGRAY)
                 footer.setTextColor(Color.DKGRAY)
 
-                this.background_view.alpha = 0f
+                this.backgroundView.alpha = 0f
             }
         }
 
