@@ -38,7 +38,7 @@ import com.mahfa.dnswitch.DayNightSwitch
 
 class credits : AppCompatActivity() {
     lateinit var dayNightSwitch: DayNightSwitch
-    lateinit var background_view: View
+    lateinit var backgroundView: View
     lateinit var header: TextView
     lateinit var bio: TextView
 
@@ -53,7 +53,7 @@ class credits : AppCompatActivity() {
         setContentView(R.layout.activity_credits)
 
         dayNightSwitch = findViewById<View>(R.id.dayNight) as DayNightSwitch
-        background_view = findViewById(R.id.background_view)
+        backgroundView = findViewById(R.id.background_view)
         header = findViewById(R.id.Header)
         bio = findViewById(R.id.bio)
 
@@ -86,7 +86,7 @@ class credits : AppCompatActivity() {
                     android.graphics.PorterDuff.Mode.SRC_IN
                 )
 
-                this.background_view.alpha = 1f
+                this.backgroundView.alpha = 1f
             } else {
                 Toast.makeText(this@credits, "Day Mode!", Toast.LENGTH_SHORT).show()
                 header.setTextColor(Color.DKGRAY)
@@ -104,7 +104,7 @@ class credits : AppCompatActivity() {
                     android.graphics.PorterDuff.Mode.SRC_IN
                 )
 
-                this.background_view.alpha = 0f
+                this.backgroundView.alpha = 0f
             }
         }
 
