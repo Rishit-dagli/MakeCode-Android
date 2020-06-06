@@ -36,12 +36,12 @@ import com.mahfa.dnswitch.DayNightSwitch
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var dayNightSwitch: DayNightSwitch
-    lateinit var background_view: View
-    lateinit var myWebView: WebView
-    lateinit var github: FloatingActionButton
-    lateinit var project_name: TextView
-    lateinit var footer: TextView
+    private lateinit var dayNightSwitch: DayNightSwitch
+    private lateinit var background_view: View
+    private lateinit var myWebView: WebView
+    private lateinit var github: FloatingActionButton
+    private lateinit var projectName: TextView
+    private lateinit var footer: TextView
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
         background_view = findViewById(R.id.background_view)
         myWebView = findViewById(R.id.webview)
         github = findViewById(R.id.github)
-        project_name = findViewById(R.id.project_name)
+        projectName = findViewById(R.id.project_name)
         this.footer = findViewById(R.id.footer)
 
         myWebView.settings.javaScriptEnabled = true
@@ -76,13 +76,13 @@ class MainActivity : AppCompatActivity() {
         dayNightSwitch.setListener { is_night ->
             if (is_night) {
                 Toast.makeText(this@MainActivity, "Night Mode!", Toast.LENGTH_SHORT).show()
-                project_name.setTextColor(Color.WHITE)
+                projectName.setTextColor(Color.WHITE)
                 footer.setTextColor(Color.WHITE)
 
                 this.background_view.alpha = 1f
             } else {
                 Toast.makeText(this@MainActivity, "Day Mode!", Toast.LENGTH_SHORT).show()
-                project_name.setTextColor(Color.DKGRAY)
+                projectName.setTextColor(Color.DKGRAY)
                 footer.setTextColor(Color.DKGRAY)
 
                 this.background_view.alpha = 0f
