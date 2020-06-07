@@ -1,5 +1,5 @@
 # MakeCode-Android
-
+![Version](https://img.shields.io/badge/version-v0.1.0-red)
 [![Build Status](https://dev.azure.com/rishitdagli/MakeCode-Android/_apis/build/status/Rishit-dagli.MakeCode-Android?branchName=master)](https://dev.azure.com/rishitdagli/MakeCode-Android/_build/latest?definitionId=1&branchName=master)
 ![Android CI](https://github.com/Rishit-dagli/MakeCode-Android/workflows/Android%20CI/badge.svg)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
