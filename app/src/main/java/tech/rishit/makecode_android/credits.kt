@@ -36,7 +36,7 @@ import androidx.core.content.ContextCompat
 import com.mahfa.dnswitch.DayNightSwitch
 
 
-class credits : AppCompatActivity() {
+class Credits : AppCompatActivity() {
     private lateinit var dayNightSwitch: DayNightSwitch
     private lateinit var backgroundView: View
     private lateinit var header: TextView
@@ -70,7 +70,7 @@ class credits : AppCompatActivity() {
 
         dayNightSwitch.setListener { is_night ->
             if (is_night) {
-                Toast.makeText(this@credits, "Night Mode!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@Credits, "Night Mode!", Toast.LENGTH_SHORT).show()
                 header.setTextColor(Color.WHITE)
                 bio.setTextColor(Color.WHITE)
 
@@ -88,7 +88,7 @@ class credits : AppCompatActivity() {
 
                 this.backgroundView.alpha = 1f
             } else {
-                Toast.makeText(this@credits, "Day Mode!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@Credits, "Day Mode!", Toast.LENGTH_SHORT).show()
                 header.setTextColor(Color.DKGRAY)
                 bio.setTextColor(Color.DKGRAY)
 

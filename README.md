@@ -128,7 +128,7 @@ You would majorly focus on editing this as most of the content would be built fo
 A few other files:
 
 * [MainActivity.kt](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/app/src/main/java/tech/rishit/makecode_android/MainActivity.kt) - The file used to write the Kotlin code for Page 1
-* [Credits.kt](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/app/src/main/java/tech/rishit/makecode_android/credits.kt)- The file used to write the Kotlin code for Page 2
+* [Credits.kt](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/app/src/main/java/tech/rishit/makecode_android/Credits.kt)- The file used to write the Kotlin code for Page 2
 * [activity_main.xml](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/app/src/main/res/layout/activity_main.xml)- The UI code for Page 1
 * [activity_credits.xml](https://github.com/Rishit-dagli/MakeCode-Android/blob/master/app/src/main/res/layout/activity_credits.xml)- The UI code for Page 2
 

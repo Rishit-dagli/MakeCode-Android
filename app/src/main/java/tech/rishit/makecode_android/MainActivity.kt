@@ -110,7 +110,7 @@ class MainActivity : AppCompatActivity() {
         val id: Int = item.itemId
 
         if (id == R.id.credits) {
-            val intent = Intent(this, credits::class.java)
+            val intent = Intent(this, Credits::class.java)
             startActivity(intent)
         }
 

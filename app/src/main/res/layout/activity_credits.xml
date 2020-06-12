@@ -22,7 +22,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".credits">
+    tools:context=".Credits">
 
     <View
         android:id="@+id/background_view"
