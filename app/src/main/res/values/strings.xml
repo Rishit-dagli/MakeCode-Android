@@ -17,6 +17,9 @@
   -->
 
 <resources>
+
+<!--    Start editing here-->
+
     <string name="app_name">MakeCode-Android</string>
     <string name="project_name">MakeCode on Android</string>
     <string name="project_id">_df5TAVWsvJ4d\"</string>
@@ -33,4 +36,7 @@
     <string name="website">https://www.rishit.tech</string>
     <string name="linkedin_profile">https://www.linkedin.com/in/rishit-dagli/</string>
     <string name="insta_profile">https://www.instagram.com/rishit_dagli/</string>
+
+<!--    Do not edit below this-->
+    
 </resources>
