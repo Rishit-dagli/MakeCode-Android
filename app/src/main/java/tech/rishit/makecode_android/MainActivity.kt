@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
                 "allowfullscreen=\"allowfullscreen\" sandbox=\"allow-popups allow-forms allow-" +
                 "scripts allow-same-origin\" frameborder=\"0\"></iframe></div"
 
-        val mimeType = getString(R.string.mimeType)
+        val mimeType = getString(R.string.mimetype)
         val encoding = getString(R.string.encoding)
 
         myWebView.loadDataWithBaseURL("", projectUrl, mimeType, encoding, "")

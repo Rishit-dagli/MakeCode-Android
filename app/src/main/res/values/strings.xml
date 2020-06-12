@@ -20,7 +20,7 @@
 
 <!--    Start editing here-->
 
-    <string name="appName">MakeCode-Android</string>
+    <string name="appname">MakeCode-Android</string>
     <string name="projectName">MakeCode on Android</string>
     <string name="project_id">_df5TAVWsvJ4d\"</string>
     <string name="contentDescriptionGithub">GitHub repo for this project</string>
@@ -39,7 +39,7 @@
 
 <!--    Do not edit below this-->
 
-    <string name="mimeType">text/html</string>
+    <string name="mimetype">text/html</string>
     <string name="encoding">utf-8</string>
 
 </resources>
