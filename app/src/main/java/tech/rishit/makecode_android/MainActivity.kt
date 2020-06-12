@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         github.setOnClickListener {
-            openUrl(getString(R.string.githubproject_url))
+            openUrl(getString(R.string.githubProjectUrl))
         }
     }
 
