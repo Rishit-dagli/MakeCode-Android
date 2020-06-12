@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
         android:layout_margin="16dp"
-        android:contentDescription="@string/content_description_github"
+        android:contentDescription="@string/contentDescriptionGithub"
         android:src="@drawable/ic_github"
         app:backgroundTint="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
