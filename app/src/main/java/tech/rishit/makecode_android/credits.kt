@@ -64,7 +64,7 @@ class Credits : AppCompatActivity() {
         github = findViewById(R.id.github)
 
         DownloadImageTask(findViewById(R.id.profile_photo))
-            .execute(getString(R.string.profile_picture_url))
+            .execute(getString(R.string.profilePictureUrl))
 
         dayNightSwitch.setDuration(450)
 
