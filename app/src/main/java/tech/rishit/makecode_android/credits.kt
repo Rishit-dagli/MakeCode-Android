@@ -116,7 +116,7 @@ class Credits : AppCompatActivity() {
         }
 
         github.setOnClickListener {
-            openUrl(getString(R.string.github_profile))
+            openUrl(getString(R.string.githubProfile))
         }
         twitter.setOnClickListener {
             openUrl(getString(R.string.twitter_url))
