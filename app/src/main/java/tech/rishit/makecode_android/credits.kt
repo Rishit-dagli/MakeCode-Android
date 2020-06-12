@@ -19,22 +19,21 @@
 package tech.rishit.makecode_android
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Color
 import android.net.Uri
 import android.os.AsyncTask
+import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.mahfa.dnswitch.DayNightSwitch
-
 
 class Credits : AppCompatActivity() {
     private lateinit var dayNightSwitch: DayNightSwitch
