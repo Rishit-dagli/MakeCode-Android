@@ -128,7 +128,7 @@ class Credits : AppCompatActivity() {
             openUrl(getString(R.string.linkedinProfile))
         }
         insta.setOnClickListener {
-            openUrl(getString(R.string.insta_profile))
+            openUrl(getString(R.string.instaProfile))
         }
 
     }
