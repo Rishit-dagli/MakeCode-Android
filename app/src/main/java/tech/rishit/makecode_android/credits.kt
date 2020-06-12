@@ -64,7 +64,7 @@ class Credits : AppCompatActivity() {
         github = findViewById(R.id.github)
 
         DownloadImageTask(findViewById(R.id.profile_photo))
-            .execute(getString(R.string.profilePictureUrl))
+            .execute(getString(R.string.profile_picture_url))
 
         dayNightSwitch.setDuration(450)
 
@@ -119,16 +119,16 @@ class Credits : AppCompatActivity() {
             openUrl(getString(R.string.githubProfile))
         }
         twitter.setOnClickListener {
-            openUrl(getString(R.string.twitterUrl))
+            openUrl(getString(R.string.twitter_url))
         }
         website.setOnClickListener {
             openUrl(getString(R.string.website))
         }
         lnkdn.setOnClickListener {
-            openUrl(getString(R.string.linkedinProfile))
+            openUrl(getString(R.string.linkedinprofile))
         }
         insta.setOnClickListener {
-            openUrl(getString(R.string.instaProfile))
+            openUrl(getString(R.string.instaprofile))
         }
 
     }

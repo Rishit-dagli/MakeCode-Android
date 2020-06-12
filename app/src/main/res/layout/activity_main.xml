@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
-        android:text="@string/projectName"
+        android:text="@string/project_name"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/background_view" />
@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
         android:layout_margin="16dp"
-        android:contentDescription="@string/contentDescriptionGithub"
+        android:contentDescription="@string/content_description_github"
         android:src="@drawable/ic_github"
         app:backgroundTint="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -82,7 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginBottom="5dp"
-        android:text="@string/footerDescription"
+        android:text="@string/footer_description"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

@@ -20,22 +20,22 @@
 
 <!--    Start editing here-->
 
-    <string name="appname">MakeCode-Android</string>
-    <string name="projectName">MakeCode on Android</string>
+    <string name="app_name">MakeCode-Android</string>
+    <string name="project_name">MakeCode on Android</string>
     <string name="project_id">_df5TAVWsvJ4d\"</string>
-    <string name="contentDescriptionGithub">GitHub repo for this project</string>
-    <string name="githubProjectUrl">https://github.com/Rishit-dagli/MakeCode-Android</string>
-    <string name="footerDescription">Built by Rishit Dagli</string>
-    <string name="profilePictureUrl">https://i.imgur.com/wR7mFmz.png</string>
+    <string name="content_description_github">GitHub repo for this project</string>
+    <string name="github_project_url">https://github.com/Rishit-dagli/MakeCode-Android</string>
+    <string name="footer_description">Built by Rishit Dagli</string>
+    <string name="profile_picture_url">https://i.imgur.com/wR7mFmz.png</string>
     <string name="bio">Rishit is a 10 grade student and is a past TED-X and Ted-Ed speaker. He is an
         AI and android enthusiast and is also a Google Certified Mobile site developer. He has often
         represented India in international level Hackathons and competitions and also won a few. He
         loves to conduct research and has written 7 research papers too</string>
     <string name="githubProfile">https://github.com/Rishit-dagli</string>
-    <string name="twitterUrl">https://twitter.com/rishit_dagli</string>
+    <string name="twitter_url">https://twitter.com/rishit_dagli</string>
     <string name="website">https://www.rishit.tech</string>
-    <string name="linkedinProfile">https://www.linkedin.com/in/rishit-dagli/</string>
-    <string name="instaProfile">https://www.instagram.com/rishit_dagli/</string>
+    <string name="linkedinprofile">https://www.linkedin.com/in/rishit-dagli/</string>
+    <string name="instaprofile">https://www.instagram.com/rishit_dagli/</string>
 
 <!--    Do not edit below this-->
 
