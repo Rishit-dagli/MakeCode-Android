@@ -39,7 +39,7 @@
 
 <!--    Do not edit below this-->
 
-    <string name="mime_type">text/html</string>
+    <string name="mimeType">text/html</string>
     <string name="encoding">utf-8</string>
 
 </resources>
