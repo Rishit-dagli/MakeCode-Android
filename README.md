@@ -97,8 +97,8 @@ See the changes using
 $ git remote -v
 origin    https://github.com/Your_Username/MakeCode-Android.git (fetch)
 origin    https://github.com/Your_Username/MakeCode-Android.git (push)
-upstream  https://github.com/marwahmanbir/MakeCode-Android.git (fetch)
-upstream  https://github.com/marwahmanbir/MakeCode-Android.git (push)
+upstream  https://github.com/Rishit-dagli/MakeCode-Android.git (fetch)
+upstream  https://github.com/Rishit-dagli/MakeCode-Android.git (push)
 ```
 
 ### 4. Editing this Project for your needs :gear:
