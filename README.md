@@ -158,7 +158,7 @@ Open [strings.xml](app/src/main/res/values/strings.xml), edit each of the values
 Edit your `project_id`, make sure your `project_id` is correct and also consider rechecking it, this
 field is responsible for displaying your game.
 
-Eg. If your shareable URL is `https://makecode.com/_df5TAVWsvJ4d\"` then your `project_id` would be 
+> Eg. If your shareable URL is `https://makecode.com/_df5TAVWsvJ4d\"` then your `project_id` would be 
 `_df5TAVWsvJ4d\"`
 
 ##### Step 3
