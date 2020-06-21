@@ -16,6 +16,8 @@ running (Detailed instructions meantioned below)
 If you have contributed in any form to this project, reporting [Issues](https://github.com/Rishit-dagli/MakeCode-Android/issues) and/or
 opening [Pull Requests](https://github.com/Rishit-dagli/MakeCode-Android/pulls) find your name and photo at [Contributors ✨](#contributors-)
 
+**If you are using this project, kindly [fill this form](https://forms.gle/vX3tsWn8cnsp73rd8) for MakeCode-Android directory.**
+
 ## What this document contains
 
 - [MakeCode-Android](#makecode-android)
