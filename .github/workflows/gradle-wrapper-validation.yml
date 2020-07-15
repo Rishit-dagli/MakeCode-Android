@@ -9,6 +9,7 @@ on:
 
 jobs:
   validation:
+    if: "!contains(github.event.head_commit.message, 'skip ci')"
     name: Validation
     runs-on: ubuntu-latest
     steps:
