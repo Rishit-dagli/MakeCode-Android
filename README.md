@@ -44,7 +44,7 @@ opening [Pull Requests](https://github.com/Rishit-dagli/MakeCode-Android/pulls) 
 ## What to expect
 
 This project shows you how you could set up an Android project with a good UI, in very little time. You should expect to be able to run 
-your MakeCode example in this manner-
+your MakeCode example in this manner with complete customizabbility-
 
 ![App Screenshots](Screenshots/MakeCode-Android_screenshots_b_and_w.png)
 
@@ -65,7 +65,9 @@ second one as `Page 2` of the app.
 
 ### 1. Fork this repository :fork_and_knife:
 
-You can get your own fork/copy of [MakeCode-Android](https://github.com/Rishit-dagli/MakeCode-Android) by using the <a href="https://github.com/Rishit-dagli/MakeCode-Android/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button or clicking [here](https://github.com/Rishit-dagli/MakeCode-Android/new/master?readme=1#fork-destination-box).
+You can get your own fork/copy of [MakeCode-Android](https://github.com/Rishit-dagli/MakeCode-Android) by using the 
+<a href="https://github.com/Rishit-dagli/MakeCode-Android/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button or clicking 
+[here](https://github.com/Rishit-dagli/MakeCode-Android/new/master?readme=1#fork-destination-box).
  [![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/CoderJolly/IPU-Engineering-Notes)
  
  
