@@ -17,3 +17,5 @@ updates:
   open-pull-requests-limit: 10
   reviewers:
   - "Rishit-dagli"
+  ignore:
+    - dependency-name: com.android.tools.build:gradle
