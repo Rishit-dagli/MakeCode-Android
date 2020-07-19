@@ -1,0 +1,19 @@
+# Documentation for all configuration options:
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  reviewers:
+  - "Rishit-dagli"
