@@ -113,7 +113,7 @@ You can essentially open the project in any editor but I would advise you to hav
 test out your project locally. The editors I would suggest are-
 
 * [VS Code](https://code.visualstudio.com/) is one of the best editors and you can have all you need with it. It is best if your machine
-does not have very great specs, its is pretty light weight too.
+does not have very great specs, it is pretty light weight too.
 * [Android Studio](https://developer.android.com/studio) is the officially preferred editor for Android development, however it might 
 require your machine to have great specs to run it efficiently.
 
